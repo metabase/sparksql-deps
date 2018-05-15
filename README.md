@@ -12,7 +12,7 @@ lein uberjar # builds target/metabase-sparksql-deps-1.2.1.spark2-standalone.jar
 # (Replace keystore, TSA and profile below with your own)
 jarsigner -keystore /path/to/my_keystore.jks \
   -tsa 'http://my.timestamp-authority.com' \
-  metabase-sparksql-deps-1.2.1.spark2-standalone.jar \
+  target/metabase-sparksql-deps-1.2.1.spark2-standalone.jar \
   'my-signing-profile'
 ```  
 
